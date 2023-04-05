@@ -11,7 +11,7 @@ body{
     height: 78vh;
     margin: auto;
     margin-top: 5%;
-    max-width: 23%;
+    width: 23%;
     background-color: white;
     border-radius: 10px;
     
@@ -39,4 +39,18 @@ p{
     padding: 1rem;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 412px) {
+    .card-main{
+        font-family: "Outfit";
+        height: 53vh;
+        margin: auto;
+        margin-top: 5%;
+        width: 63%;
+        background-color: white;
+        border-radius: 10px;
+        
+    }
+    
 }
